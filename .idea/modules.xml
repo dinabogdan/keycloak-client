@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/keycloak-client.iml" filepath="$PROJECT_DIR$/keycloak-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keycloak-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/keycloak-client_main.iml" group="keycloak-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/keycloak-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/keycloak-client_test.iml" group="keycloak-client" />
+    </modules>
+  </component>
+</project>
