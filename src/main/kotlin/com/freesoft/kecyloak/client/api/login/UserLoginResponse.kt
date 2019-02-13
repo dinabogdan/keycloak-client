@@ -1,7 +1,14 @@
 package com.freesoft.kecyloak.client.api.login
 
-import com.freesoft.kecyloak.client.api.BaseHttpResponse
+import com.google.gson.annotations.SerializedName
 
-class UserLoginResponse(statusCode: Int,
-                        statusMessage: String,
-                        authToken: String) : BaseHttpResponse(statusCode, statusMessage)
+class UserLoginResponse(@SerializedName("access_token")
+                        val authToken: String,
+                        @SerializedName("expires_in")
+                        val expiresIn: Int,
+                        @SerializedName("refresh_expires_in")
+                        val refreshExpiresIn: Int,
+                        @SerializedName("refresh_token")
+                        val refreshToken: String,
+                        @SerializedName("token_type")
+                        val tokenType: String)
