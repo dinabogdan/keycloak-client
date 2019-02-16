@@ -22,5 +22,11 @@ interface KeycloakClientConfig {
 
     val loginUrl: String
 
+    /**
+     * The URL to Keycloak signUp endpoint
+     */
+
+    val signUpUrl: String
+
 
 }
