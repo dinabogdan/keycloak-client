@@ -28,5 +28,17 @@ interface KeycloakClientConfig {
 
     val signUpUrl: String
 
+    /**
+     * The URL to Keycloak logoutUrl endpoint
+     */
+
+    val logoutUrl: String
+
+    /**
+     * The Bearer Token used by this application for accessing the Admin REST API.
+     */
+
+    val adminBearerToken: String
+
 
 }

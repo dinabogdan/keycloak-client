@@ -9,12 +9,20 @@ class KeycloakApi(private val config: KeycloakClientConfig) {
             khttp.post(
                     url = config.loginUrl,
                     data = postDataBody,
-                    headers = mapOf(Pair("content-type", "application/x-www-form-urlencoded"))
+                    headers = mapOf(Pair(HttpHeaderKey.CONTENT_TYPE.value, HttpHeaderValue.X_WWW_FORM_URL_ENCODED.value))
             )
 
     fun signUp(postDataBody: Map<String, Any>): Response =
             khttp.post(
                     url = config.signUpUrl,
-                    data = postDataBody
+                    data = postDataBody,
+                    headers = mapOf(Pair(HttpHeaderKey.AUTHORIZATION.value, config.adminBearerToken))
+            )
+
+    fun logout(postDataBody: Map<String, String>, token: String): Response =
+            khttp.post(
+                    url = config.logoutUrl,
+                    data = postDataBody,
+                    headers = mapOf(Pair(HttpHeaderKey.AUTHORIZATION.value, token))
             )
 }

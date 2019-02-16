@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a83af7e-89c0-42d2-81ab-582844ea07bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,7 +22,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.54689986">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
@@ -56,7 +55,7 @@
           <file leaf-file-name="CustomerServicesImpl.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="62">
+                <state relative-caret-position="172">
                   <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
                   <folding>
                     <element signature="e#43#255#0" expanded="true" />
@@ -65,11 +64,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="KeycloakClientConfig.kt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="KeycloakClientConfig.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="164">
-                  <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+                <state relative-caret-position="132">
+                  <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestKeycloakClientConfigImpl.kt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="142">
+                  <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -94,11 +102,29 @@
           <file leaf-file-name="KeycloakApi.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+                <state relative-caret-position="67">
+                  <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
                   <folding>
                     <element signature="e#43#135#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HttpHeaderValue.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderValue.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HttpHeaderKey.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderKey.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -114,6 +140,7 @@
         <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -495,8 +522,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/BaseHttpResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/BaseException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderKey.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderValue.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt" />
       </list>
     </option>
@@ -804,7 +833,7 @@
       <workItem from="1549917801288" duration="529000" />
       <workItem from="1549970135152" duration="6456000" />
       <workItem from="1550081982483" duration="10566000" />
-      <workItem from="1550322728205" duration="5216000" />
+      <workItem from="1550322728205" duration="7913000" />
     </task>
     <servers />
   </component>
@@ -841,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22767000" />
+    <option name="totallyTimeSpent" value="25464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -869,6 +898,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2715959" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -880,7 +910,6 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32741934" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1138,16 +1167,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="172">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="e#43#255#0" expanded="true" />
@@ -1155,20 +1177,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="e#43#135#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="142">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.31/a1a0b714cb760f9bd0f4f9d04915c1748eaefc64/kotlin-stdlib-1.2.31-sources.jar!/kotlin/Enum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderKey.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderValue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#43#135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

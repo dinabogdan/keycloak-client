@@ -3,6 +3,10 @@ package com.freesoft.keycloak.client
 import com.freesoft.kecyloak.client.api.KeycloakClientConfig
 
 class TestKeycloakClientConfigImpl : KeycloakClientConfig {
+    override val logoutUrl: String
+        get() = ""
+    override val adminBearerToken: String
+        get() = ""
     override val signUpUrl: String
         get() = ""
     override val baseUrl: String
