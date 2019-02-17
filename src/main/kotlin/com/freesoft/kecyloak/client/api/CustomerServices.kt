@@ -1,10 +1,10 @@
 package com.freesoft.kecyloak.client.api
 
 import com.freesoft.kecyloak.client.api.login.UserLoginRequest
-import khttp.responses.Response
+import com.freesoft.kecyloak.client.api.login.UserLoginResponse
 
 interface CustomerServices {
 
-    fun login(userLoginRequest: UserLoginRequest): Response
+    fun login(userLoginRequest: UserLoginRequest): UserLoginResponse
 
 }
