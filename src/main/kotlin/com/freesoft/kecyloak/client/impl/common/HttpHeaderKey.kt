@@ -1,4 +1,4 @@
-package com.freesoft.kecyloak.client.impl.utils
+package com.freesoft.kecyloak.client.impl.common
 
 enum class HttpHeaderKey(val value: String) {
     AUTHORIZATION("Authorization"),

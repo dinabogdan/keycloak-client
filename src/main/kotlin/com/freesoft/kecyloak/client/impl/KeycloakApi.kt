@@ -1,8 +1,8 @@
 package com.freesoft.kecyloak.client.impl
 
 import com.freesoft.kecyloak.client.api.KeycloakClientConfig
-import com.freesoft.kecyloak.client.impl.utils.HttpHeaderKey
-import com.freesoft.kecyloak.client.impl.utils.HttpHeaderValue
+import com.freesoft.kecyloak.client.impl.common.HttpHeaderKey
+import com.freesoft.kecyloak.client.impl.common.HttpHeaderValue
 import khttp.responses.Response
 
 class KeycloakApi(private val config: KeycloakClientConfig) {

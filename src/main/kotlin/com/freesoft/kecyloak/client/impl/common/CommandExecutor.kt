@@ -12,7 +12,8 @@ sealed class CommandExecutor {
 //    fun <T : BaseKeycloakResponse> execute(supplier: Supplier<T>): T = executeWithExceptionMapper(supplier)
 
     companion object {
-        private val gsonParser = GsonParser()
+        private val gsonParser = GsonParser.getInstance()
+        private val responsePayloadHandler = ResponsePayloadHandler.getInstance()
 
         private fun <T : Response> executeWithExceptionMapper(supplier: Supplier<T>): T? {
             try {
@@ -36,11 +37,11 @@ sealed class CommandExecutor {
             return result
         }
 
-        private fun <T : Response> isInvalidGrant(result: T): Boolean =
+        fun <T : Response> isInvalidGrant(result: T): Boolean =
                 try {
                     val parsedResponse = gsonParser.parse(result.text,
                             KeycloakErrorResponse::class.javaObjectType)
-                    KeycloakErrors.INVALID_GRANT.value == parsedResponse.error
+                    KeycloakErrors.INVALID_GRANT_TYPE.value == parsedResponse.error
                 } catch (exception: Exception) {
                     false
                 }
