@@ -1,15 +1,9 @@
 package com.freesoft.keycloak.client
 
 import com.freesoft.kecyloak.client.api.KeycloakClientConfig
-import com.freesoft.kecyloak.client.api.login.InvalidUserCredentialsException
-import com.freesoft.kecyloak.client.api.login.UserLoginRequest
-import com.freesoft.kecyloak.client.api.login.UserLoginResponse
-import com.freesoft.kecyloak.client.impl.CustomerServicesImpl
 import com.freesoft.kecyloak.client.impl.KeycloakApi
-import com.freesoft.kecyloak.client.impl.common.UnauthorizedClientResponse
+import com.freesoft.kecyloak.client.impl.common.KeycloakErrorResponse
 import com.freesoft.kecyloak.client.impl.parser.GsonParser
-import com.google.gson.Gson
-import com.google.gson.JsonParser
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Before
@@ -43,7 +37,7 @@ class TestKeycloakClient {
         assertNotNull(login)
         println(login.text)
         val gsonParser = GsonParser()
-        val parse = gsonParser.parse(login.text, UnauthorizedClientResponse::class.javaObjectType)
+        val parse = gsonParser.parse(login.text, KeycloakErrorResponse::class.javaObjectType)
         println(parse.error)
         println(parse.errorDescription)
     }
