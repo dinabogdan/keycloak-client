@@ -6,11 +6,12 @@ import khttp.responses.Response
 class ResponsePayloadHandler private constructor() {
     private val gsonParser = GsonParser.getInstance()
 
-    fun isResponseErrorOfType(error: KeycloakErrors, response: Response) =
+    fun isResponseErrorOfType(keycloakError: KeycloakErrors, response: Response) =
             try {
                 val parsedResponse = gsonParser.parse(response.text,
                         KeycloakErrorResponse::class.javaObjectType)
-                error.errorDescription == parsedResponse.errorDescription
+                keycloakError.error == parsedResponse.error &&
+                        parsedResponse.errorDescription?.startsWith(keycloakError.errorDescription!!)!!
             } catch (exception: Exception) {
                 false
             }

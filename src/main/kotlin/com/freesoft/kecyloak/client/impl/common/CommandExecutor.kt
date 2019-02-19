@@ -6,8 +6,7 @@ import khttp.responses.Response
 import java.lang.Exception
 import java.util.function.Supplier
 
-sealed class CommandExecutor {
-
+class CommandExecutor {
 
 //    fun <T : BaseKeycloakResponse> execute(supplier: Supplier<T>): T = executeWithExceptionMapper(supplier)
 
@@ -34,35 +33,30 @@ sealed class CommandExecutor {
                     MissingParameterException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isInvalidGrant(result),
                     InvalidGrantException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+            rejectOnTrue(isInvalidUserCredentials(result),
+                    InvalidUserCredentialsException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+            rejectOnTrue(isMissingGrantType(result),
+                    MissingGrantTypeException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
             return result
         }
 
-        fun <T : Response> isInvalidGrant(result: T): Boolean =
-                try {
-                    val parsedResponse = gsonParser.parse(result.text,
-                            KeycloakErrorResponse::class.javaObjectType)
-                    KeycloakErrors.INVALID_GRANT_TYPE.value == parsedResponse.error
-                } catch (exception: Exception) {
-                    false
-                }
+        private fun <T : Response> isUnauthorizedClient(result: T) =
+                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.UNAUTHORIZED_CLIENT, result)
 
-        private fun <T : Response> isMissingParameter(result: T): Boolean =
-                try {
-                    val parsedResponse = gsonParser.parse(result.text,
-                            KeycloakErrorResponse::class.javaObjectType)
-                    KeycloakErrors.MISSING_PARAMETER.value == parsedResponse.error
-                } catch (exception: Exception) {
-                    false
-                }
+        private fun <T : Response> isInvalidGrant(result: T) =
+                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_GRANT_TYPE, result)
 
-        private fun <T : Response> isUnauthorizedClient(result: T): Boolean =
-                try {
-                    val parsedResponse = gsonParser.parse(result.text,
-                            KeycloakErrorResponse::class.javaObjectType)
-                    KeycloakErrors.UNAUTHORIZED_CLIENT.value == parsedResponse.error
-                } catch (exception: Exception) {
-                    false
-                }
+        private fun <T : Response> isMissingParameter(result: T) =
+                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.MISSING_PARAMETER, result)
+
+        private fun <T : Response> isInvalidUserCredentials(result: T) =
+                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_USER_CREDENTIALS, result)
+
+        private fun <T : Response> isInvalidGrantType(result: T) =
+                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_GRANT_TYPE, result)
+
+        private fun <T : Response> isMissingGrantType(result: T) =
+                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.MISSING_GRANT_TYPE, result)
 
         private fun <E : ServiceException> rejectOnTrue(condition: Boolean, exception: E) {
             if (condition) throw exception
