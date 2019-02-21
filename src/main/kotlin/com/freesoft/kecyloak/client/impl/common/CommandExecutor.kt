@@ -6,25 +6,24 @@ import khttp.responses.Response
 import java.lang.Exception
 import java.util.function.Supplier
 
-class CommandExecutor {
-
-//    fun <T : BaseKeycloakResponse> execute(supplier: Supplier<T>): T = executeWithExceptionMapper(supplier)
+class CommandExecutor private constructor() {
 
     companion object {
         private val gsonParser = GsonParser.getInstance()
         private val responsePayloadHandler = ResponsePayloadHandler.getInstance()
 
-        private fun <T : Response> executeWithExceptionMapper(supplier: Supplier<T>): T? {
-            try {
-                val result = supplier.get()
-                return handleResult(result)
-                return null
-            } catch (exception: ServiceException) {
-                throw exception
-            } catch (exception: Exception) {
-                throw RecoverableServiceException(exception.message, exception.cause)
-            }
-        }
+        fun <T : Response> execute(supplier: Supplier<T>): T = executeWithExceptionMapper(supplier)
+
+        private fun <T : Response> executeWithExceptionMapper(supplier: Supplier<T>): T =
+                try {
+                    val result = supplier.get()
+                    handleResult(result)
+                } catch (exception: ServiceException) {
+                    throw exception
+                } catch (exception: Exception) {
+                    throw RecoverableServiceException(exception.message, exception.cause)
+                }
+
 
         private fun <T : Response> handleResult(result: T): T {
             rejectOnTrue(isUnauthorizedClient(result),
@@ -52,16 +51,11 @@ class CommandExecutor {
         private fun <T : Response> isInvalidUserCredentials(result: T) =
                 responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_USER_CREDENTIALS, result)
 
-        private fun <T : Response> isInvalidGrantType(result: T) =
-                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_GRANT_TYPE, result)
-
         private fun <T : Response> isMissingGrantType(result: T) =
                 responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.MISSING_GRANT_TYPE, result)
 
         private fun <E : ServiceException> rejectOnTrue(condition: Boolean, exception: E) {
             if (condition) throw exception
         }
-
     }
-
 }

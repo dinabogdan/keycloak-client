@@ -19,12 +19,4 @@ class CustomerServicesImpl(private val config: KeycloakClientConfig,
     private fun handleLoginRequest(userLoginRequest: UserLoginRequest): UserLoginResponse? {
         return null
     }
-
-
-    private fun toLoginJson(userLoginRequest: UserLoginRequest): Map<String, String> =
-            mapOf("grant_type" to userLoginRequest.grantType,
-                    "client_id" to userLoginRequest.clientId,
-                    "username" to userLoginRequest.username,
-                    "password" to userLoginRequest.password)
-
 }
