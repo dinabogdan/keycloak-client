@@ -1,6 +1,5 @@
 package com.freesoft.kecyloak.client.impl.common
 
-import com.freesoft.kecyloak.client.impl.parser.GsonParser
 import khttp.responses.Response
 
 class ResponsePayloadHandler private constructor() {

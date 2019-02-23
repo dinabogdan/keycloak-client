@@ -4,7 +4,7 @@ import com.freesoft.kecyloak.client.api.login.UserLoginRequest
 import com.freesoft.kecyloak.client.api.login.UserLoginResponse
 import com.freesoft.kecyloak.client.impl.KeycloakApi
 import com.freesoft.kecyloak.client.impl.common.CommandExecutor
-import com.freesoft.kecyloak.client.impl.parser.GsonParser
+import com.freesoft.kecyloak.client.impl.common.GsonParser
 import java.util.function.Supplier
 
 class LoginExecutor private constructor(private val keycloakApi: KeycloakApi) {

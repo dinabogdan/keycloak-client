@@ -7,5 +7,6 @@ enum class KeycloakErrors(val error: String?, val errorDescription: String?) {
     MISSING_PARAMETER("invalid_request", "Missing parameter:"),
     INVALID_GRANT_TYPE("invalid_request", "Invalid grant_type"),
     MISSING_GRANT_TYPE("invalid_request", "Missing form parameter: grant_type"),
-    USER_EXISTS(null, "User exists with same");
+    USER_EXISTS(null, "User exists with same"),
+    NO_REFRESH_TOKEN("invalid_request", "No refresh token");
 }

@@ -5,12 +5,9 @@ import com.freesoft.kecyloak.client.api.signup.UserSignUpCredentials
 import com.freesoft.kecyloak.client.api.signup.UserSignUpRequest
 import com.freesoft.kecyloak.client.impl.KeycloakApi
 import com.freesoft.kecyloak.client.impl.common.CommandExecutor
-import com.freesoft.kecyloak.client.impl.parser.GsonParser
+import com.freesoft.kecyloak.client.impl.common.GsonParser
 import com.freesoft.kecyloak.client.impl.signup.SignUpExecutor
 import com.google.gson.Gson
-import com.google.gson.GsonBuilder
-import com.google.gson.JsonParser
-import org.json.JSONObject
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Before

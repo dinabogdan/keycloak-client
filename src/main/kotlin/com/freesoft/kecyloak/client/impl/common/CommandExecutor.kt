@@ -1,7 +1,6 @@
 package com.freesoft.kecyloak.client.impl.common
 
 import com.freesoft.kecyloak.client.api.exception.*
-import com.freesoft.kecyloak.client.impl.parser.GsonParser
 import khttp.responses.Response
 import java.lang.Exception
 import java.util.function.Supplier
@@ -37,8 +36,13 @@ class CommandExecutor private constructor() {
                     MissingGrantTypeException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isUserExists(result),
                     UserExistsException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorMessageResponse::class.java)))
+            rejectOnTrue(isNoRefreshToken(result),
+                    NoRefreshTokenException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             return result
         }
+
+        private fun <T : Response?> isNoRefreshToken(result: T) =
+                responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.NO_REFRESH_TOKEN, result)
 
         private fun <T : Response?> isUserExists(result: T) =
                 responsePayloadHandler.isKeycloakErrorMessageResponseTypeOf(KeycloakErrors.USER_EXISTS, result)

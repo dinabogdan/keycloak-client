@@ -1,10 +1,7 @@
-package com.freesoft.kecyloak.client.impl.parser
+package com.freesoft.kecyloak.client.impl.common
 
 import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 import com.google.gson.JsonParser
-import com.google.gson.stream.JsonReader
-import java.io.StringReader
 
 class GsonParser private constructor() {
 

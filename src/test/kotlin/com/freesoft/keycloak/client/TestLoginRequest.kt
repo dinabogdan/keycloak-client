@@ -6,7 +6,7 @@ import com.freesoft.kecyloak.client.api.login.UserLoginResponse
 import com.freesoft.kecyloak.client.impl.KeycloakApi
 import com.freesoft.kecyloak.client.impl.common.CommandExecutor
 import com.freesoft.kecyloak.client.impl.login.LoginExecutor
-import com.freesoft.kecyloak.client.impl.parser.GsonParser
+import com.freesoft.kecyloak.client.impl.common.GsonParser
 import org.junit.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Test
