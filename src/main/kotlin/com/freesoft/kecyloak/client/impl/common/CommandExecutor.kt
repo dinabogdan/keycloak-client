@@ -24,38 +24,38 @@ class CommandExecutor private constructor() {
                     throw RecoverableServiceException(exception.message, exception.cause)
                 }
 
-        private fun <T : Response> handleResult(result: T): T {
+        private fun <T : Response?> handleResult(result: T): T {
             rejectOnTrue(isUnauthorizedClient(result),
-                    UnauthorizedClientException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+                    UnauthorizedClientException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isMissingParameter(result),
-                    MissingParameterException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+                    MissingParameterException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isInvalidGrant(result),
-                    InvalidGrantException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+                    InvalidGrantException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isInvalidUserCredentials(result),
-                    InvalidUserCredentialsException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+                    InvalidUserCredentialsException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isMissingGrantType(result),
-                    MissingGrantTypeException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+                    MissingGrantTypeException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isUserExists(result),
-                    UserExistsException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorMessageResponse::class.java)))
+                    UserExistsException(result?.statusCode, gsonParser.parse(result?.text, KeycloakErrorMessageResponse::class.java)))
             return result
         }
 
-        private fun <T : Response> isUserExists(result: T) =
+        private fun <T : Response?> isUserExists(result: T) =
                 responsePayloadHandler.isKeycloakErrorMessageResponseTypeOf(KeycloakErrors.USER_EXISTS, result)
 
-        private fun <T : Response> isUnauthorizedClient(result: T) =
+        private fun <T : Response?> isUnauthorizedClient(result: T) =
                 responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.UNAUTHORIZED_CLIENT, result)
 
-        private fun <T : Response> isInvalidGrant(result: T) =
+        private fun <T : Response?> isInvalidGrant(result: T) =
                 responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.INVALID_GRANT_TYPE, result)
 
-        private fun <T : Response> isMissingParameter(result: T) =
+        private fun <T : Response?> isMissingParameter(result: T) =
                 responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.MISSING_PARAMETER, result)
 
-        private fun <T : Response> isInvalidUserCredentials(result: T) =
+        private fun <T : Response?> isInvalidUserCredentials(result: T) =
                 responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.INVALID_USER_CREDENTIALS, result)
 
-        private fun <T : Response> isMissingGrantType(result: T) =
+        private fun <T : Response?> isMissingGrantType(result: T) =
                 responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.MISSING_GRANT_TYPE, result)
 
         private fun <E : ServiceException> rejectOnTrue(condition: Boolean, exception: E) {

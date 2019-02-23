@@ -6,13 +6,13 @@ class TestKeycloakClientConfigImpl : KeycloakClientConfig {
     override val logoutUrl: String
         get() = ""
     override val adminBearerToken: String
-        get() = ""
+        get() = "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJqaXBBV0ItY2d1aE8zVktHMnJ6MnNrb2Y0M3lyTlFUZnlGVml1bU5mZ1hvIn0.eyJqdGkiOiI2MWMxMjQxMi1jMzhhLTRjZGMtYTZlYi1iMGVmNmE2NmVjYzQiLCJleHAiOjE1NTA5NTM0NDUsIm5iZiI6MCwiaWF0IjoxNTUwOTUzMTQ1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgxODAvYXV0aC9yZWFsbXMvU3ByaW5nQm9vdEtleWNsb2FrIiwiYXVkIjoibG9naW4tYXBwIiwic3ViIjoiYTE0YjliMDUtYWZkZS00ODMzLWI3ZWYtMmJhYmFhYjcxZDdjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibG9naW4tYXBwIiwiYXV0aF90aW1lIjowLCJzZXNzaW9uX3N0YXRlIjoiOWNlYmFjZmQtNGE2ZS00NDczLTkzMzMtM2Q4N2VjZjYxYzNiIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6W10sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJ1bWFfYXV0aG9yaXphdGlvbiIsInVzZXIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctcmVhbG0iLCJ2aWV3LWlkZW50aXR5LXByb3ZpZGVycyIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIxIn0.EDaRAWb1bt5e6nJ4gfnQSXwY1q-lAx3mO_88QcE_NraPJiDjEhFqG69FyeP9s2bCiqQYLDJhX76Z0uoLvDM-ebuojNxZbxd6wJiAZYWSG6VEaHxBhqBsPrtaE0pB-6fHL7FqP_AIxt_iPlq8zoX2UlGV-xsxuD4VhLlUZgj6jfYBtl09bPhafcJny9mWb1qaFBsSvOnn2y-76sUdZ7cPuC6fw4EuwuujaRTMnWhJ3-_lcBIc1ndm9l-aesVW8THR4wov06AJEZ-pW72JVIPlxWOfVF-_bYUPR4Mt3o13bFHSq6Mq0EZhL5O7u-jeH12Lh29TyKedBl2GpQ_fpbbd4A"
     override val signUpUrl: String
-        get() = ""
+        get() = "$baseUrl/admin/realms/$realm/users"
     override val baseUrl: String
-        get() = "http://localhost:8180/auth/realms/"
+        get() = "http://localhost:8180/auth"
     override val realm: String
         get() = "SpringBootKeycloak"
     override val loginUrl: String
-        get() = "$baseUrl$realm/protocol/openid-connect/token"
+        get() = "$baseUrl/realms/$realm/protocol/openid-connect/token"
 }
