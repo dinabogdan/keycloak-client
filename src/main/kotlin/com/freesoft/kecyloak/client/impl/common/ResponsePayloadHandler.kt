@@ -9,8 +9,8 @@ class ResponsePayloadHandler private constructor() {
     fun isKeycloakErrorResponseTypeOf(keycloakError: KeycloakErrors, response: Response?) =
             try {
                 val parsedResponse = gsonParser.parse(response?.text, KeycloakErrorResponse::class.java)
-                keycloakError.error == parsedResponse.error &&
-                        parsedResponse.errorDescription?.startsWith(keycloakError.errorDescription!!)!!
+                keycloakError.error == parsedResponse?.error &&
+                        parsedResponse?.errorDescription?.startsWith(keycloakError.errorDescription!!)!!
             } catch (exception: Exception) {
                 false
             }
@@ -18,7 +18,7 @@ class ResponsePayloadHandler private constructor() {
     fun isKeycloakErrorMessageResponseTypeOf(keycloakError: KeycloakErrors, response: Response?) =
             try {
                 val parsedResponse = gsonParser.parse(response?.text, KeycloakErrorMessageResponse::class.java)
-                parsedResponse.errorMessage?.startsWith(keycloakError.errorDescription!!)!!
+                parsedResponse?.errorMessage?.startsWith(keycloakError.errorDescription!!)!!
             } catch (exception: Exception) {
                 false
             }

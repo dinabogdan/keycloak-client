@@ -2,40 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a83af7e-89c0-42d2-81ab-582844ea07bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20150729.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/keycloak-client_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/keycloak-client_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/keycloak-client_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/keycloak-client_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/login/UserLoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/login/UserLoginRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/KeycloakApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/KeycloakApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/MissingParameterException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/MissingParameterException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/UserExistsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/api/exception/UserExistsException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/CommandExecutor$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/CommandExecutor$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/KeycloakErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/KeycloakErrors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler$Companion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/login/LoginExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/login/LoginExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/parser/GsonParser$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/parser/GsonParser$Companion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/parser/GsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/parser/GsonParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givenAPostDataBodyWithInvalidClientId_whenCallingLogin_thenThrowingAnUnauthorizedClientException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givenAPostDataBodyWithNoClientId_whenCallingLogin_thenThrowingAnUnauthorizedClientException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givingAPostDatBodyWithNoPassword_whenCallingLogin_thenThrowingAnInvalidUserCredentialsException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givingAPostDataBodyWithInvalidGrantType_whenCallingLogin_thenThrowingInvalidRequestException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givingAPostDataBodyWithInvalidPassword_whenCallingLogin_thenThrowingAnInvalidUserCredentialsException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givingAPostDataBodyWithInvalidUsername_whenCallingLogin_thenThrowingAnInvalidUserCredentialsException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givingAPostDataBodyWithNoGrantType_whenCallingLogin_thenThrowingAMissingGrantTypeException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient$givingAPostDataBodyWithNoUsername_whenCallingLogin_thenThrowingAMissingParameterException$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestLoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestLoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestSignUpRequest$givenAValidUser_whenCallingSignUp_thenReturn201Response$response$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestSignUpRequest$givenAValidUser_whenCallingSignUp_thenReturn201Response$response$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestSignUpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/freesoft/keycloak/client/TestSignUpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingParameterException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingParameterException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -47,97 +40,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="UserSignUpCredentials.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="68">
-                    <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="TestLoginRequest.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="110">
-                    <caret line="95" column="63" lean-forward="true" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="UserExistsException.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="68">
-                    <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="KeycloakApi.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="161">
-                    <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-                    <folding>
-                      <element signature="e#43#288#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="KeycloakErrorMessageResponse.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrorMessageResponse.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="68">
-                    <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="SignUpExecutor.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-                    <folding>
-                      <element signature="e#50#363#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="TestSignUpRequest.kt" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="221">
-                    <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="UserSignUpRequest.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
-                    <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-                    <folding>
-                      <element signature="e#49#101#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -145,7 +47,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestKeycloakClientConfigImpl.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestLoginRequest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-519">
+              <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandExecutor.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
+              <folding>
+                <element signature="e#50#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidUserCredentialsException.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidGrantException.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpExecutor.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="105" lean-forward="true" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+              <folding>
+                <element signature="e#50#363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestKeycloakClientConfigImpl.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -154,14 +107,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandExecutor.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt">
+      <file leaf-file-name="LoginExecutor.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="e#50#254#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginResponse.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginResponse.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -169,32 +128,8 @@
       <file leaf-file-name="TestSignUpRequest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestKeycloakApi.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakApi.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding>
-                <element signature="e#38#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GsonParser.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <element signature="e#50#215#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -202,38 +137,11 @@
       <file leaf-file-name="ResponsePayloadHandler.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="125">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="e#50#140#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Response.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jkcclemens/khttp/0.1.0/e40435c063278aca7333a9c0b30423abe675124/khttp-0.1.0-sources.jar!/khttp/responses/Response.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MalformedJsonException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/stream/MalformedJsonException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/IOException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -630,24 +538,16 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/UnauthorizedClientException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/MissingParamterResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/UnauthorizedClientResponse.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingParameterException.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrorResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/ServiceException.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/BaseKeycloakResponse.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/LoginExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClient.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrorMessageResponse.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrors.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginRequest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpResponse.kt" />
@@ -656,12 +556,20 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakApi.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingParameterException.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakClientConfigImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt" />
       </list>
     </option>
   </component>
@@ -674,8 +582,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -901,7 +809,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="keycloakapi&#9;null&#9;null&#10;keycloakApi&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt&#10;MalformedJsonE&#9;PSI&#9;JAVA://com.google.gson.stream.MalformedJsonException&#10;TestS&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt&#10;TestSignU&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt&#10;SignUpEXe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt&#10;CommandExe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt&#10;UserSignUpReque&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt&#10;Keyclo&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt&#10;userSignU&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt&#10;LoginExe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt&#10;Response&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="SignUpExe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt&#10;GsonPa&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt&#10;keycloakapi&#9;null&#9;null&#10;keycloakApi&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt&#10;MalformedJsonE&#9;PSI&#9;JAVA://com.google.gson.stream.MalformedJsonException&#10;TestS&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt&#10;TestSignU&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt&#10;SignUpEXe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt&#10;CommandExe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt&#10;UserSignUpReque&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt&#10;Keyclo&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt&#10;userSignU&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpRequest.kt&#10;LoginExe&#9;FILE&#9;file://C:/DevTools/workspace/keycloak-client/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt&#10;Response&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
@@ -1143,47 +1051,47 @@
       <workItem from="1550596767432" duration="17227000" />
       <workItem from="1550932612183" duration="10424000" />
       <workItem from="1550949754498" duration="693000" />
-      <workItem from="1550950464384" duration="2418000" />
+      <workItem from="1550950464384" duration="3853000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 21h 47m 19s.xml">
-      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 21h 50m 49s.xml">
-      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 21h 52m 02s.xml">
-      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 21h 54m 14s.xml">
-      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestKeycloakApi_applicationContext - 2019.02.23 at 21h 56m 26s.xml">
-      <configuration name="TestKeycloakApi.applicationContext" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestKeycloakApi_testSignUpRequest - 2019.02.23 at 22h 12m 57s.xml">
-      <configuration name="TestKeycloakApi.testSignUpRequest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestKeycloakApi_testSignUpRequest - 2019.02.23 at 22h 13m 29s.xml">
-      <configuration name="TestKeycloakApi.testSignUpRequest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestKeycloakApi_testSignUpRequest - 2019.02.23 at 22h 13m 49s.xml">
-      <configuration name="TestKeycloakApi.testSignUpRequest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestKeycloakApi_testSignUpRequest - 2019.02.23 at 22h 14m 05s.xml">
-      <configuration name="TestKeycloakApi.testSignUpRequest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestKeycloakApi_testSignUpRequest - 2019.02.23 at 22h 15m 50s.xml">
       <configuration name="TestKeycloakApi.testSignUpRequest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 19m 32s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKeycloakApi_testSignUpRequest - 2019.02.23 at 22h 19m 45s.xml">
+      <configuration name="TestKeycloakApi.testSignUpRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 20m 53s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 30m 30s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 35m 48s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 36m 09s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 37m 21s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 42m 20s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUpRequest_givenAValidUser_whenCallingSignUp_thenReturn201Response - 2019.02.23 at 22h 43m 05s.xml">
+      <configuration name="TestSignUpRequest.givenAValidUser_whenCallingSignUp_thenReturn201Response" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78273000" />
+    <option name="totallyTimeSpent" value="79708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1199,14 +1107,14 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39427662" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39427662" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32591414" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3926868" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3926868" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19472913" />
       <window_info anchor="right" id="Gradle" order="6" />
@@ -1261,6 +1169,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1274,31 +1192,19 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakApi.kt</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1402,37 +1308,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/MissingParamterResponse.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingParameterException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="87" lean-forward="true" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/InvalidUserCredentialsException.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/BaseKeycloakResponse.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/ServiceException.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1455,31 +1333,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrorMessageResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrorResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1514,30 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#50#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpResponse.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1556,13 +1389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="95" column="63" lean-forward="true" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1587,60 +1413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#50#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#50#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#50#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakApi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#38#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding>
-            <element signature="e#43#288#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1654,10 +1430,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        <state relative-caret-position="280">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestKeycloakApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/parser/GsonParser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#50#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UserExistsException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/KeycloakErrorMessageResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingGrantTypeException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/UnauthorizedClientException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/MissingParameterException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidGrantException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -1665,6 +1513,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1650" selection-start-line="8" selection-start-column="1650" selection-end-line="8" selection-end-column="1650" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ResponsePayloadHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#50#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestSignUpRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/CommandExecutor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
+          <folding>
+            <element signature="e#50#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="105" lean-forward="true" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+          <folding>
+            <element signature="e#50#363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

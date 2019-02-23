@@ -43,10 +43,10 @@ class TestLoginRequest {
         val loginResponse = keycloakApi.login(postDatBody)
         assertNotNull(loginResponse)
         val userLoginResponse = gsonParser.parse(loginResponse.text, UserLoginResponse::class.java)
-        assertNotNull(userLoginResponse.tokenType)
-        assertNotNull(userLoginResponse.authToken)
-        assertNotNull(userLoginResponse.expiresIn)
-        assertNotNull(userLoginResponse.refreshExpiresIn)
+        assertNotNull(userLoginResponse?.tokenType)
+        assertNotNull(userLoginResponse?.authToken)
+        assertNotNull(userLoginResponse?.expiresIn)
+        assertNotNull(userLoginResponse?.refreshExpiresIn)
     }
 
     @Test(expected = UnauthorizedClientException::class)

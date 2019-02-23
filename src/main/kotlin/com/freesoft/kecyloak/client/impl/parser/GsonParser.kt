@@ -16,12 +16,13 @@ class GsonParser private constructor() {
 
     }
 
-    inline fun <reified T : Any> parse(text: String?, responseType: Class<T>): T {
-        val gsonBuilder = GsonBuilder()
-        gsonBuilder.setLenient()
-        val gson = gsonBuilder.create()
-        val jsonReader = JsonReader(StringReader(text))
-        return gson.fromJson(jsonReader, responseType)
+    inline fun <reified T : Any> parse(text: String?, responseType: Class<T>): T? {
+        val parser = JsonParser()
+        if (text != null) {
+            val jsonElement = parser.parse(text)
+            val gson = Gson()
+            return gson.fromJson(jsonElement, responseType)
+        }
+        return null
     }
-
 }

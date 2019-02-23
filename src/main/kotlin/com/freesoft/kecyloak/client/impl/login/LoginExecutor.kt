@@ -15,7 +15,7 @@ class LoginExecutor private constructor(private val keycloakApi: KeycloakApi) {
         fun aLoginExecutor(keycloakApi: KeycloakApi) = LoginExecutor(keycloakApi)
     }
 
-    private fun login(userLoginRequest: UserLoginRequest): UserLoginResponse {
+    private fun login(userLoginRequest: UserLoginRequest): UserLoginResponse? {
         val response = CommandExecutor.execute(Supplier { keycloakApi.login(userLoginRequest.toPostDataBody()) })
         return gsonParser.parse(response.text, UserLoginResponse::class.java)
     }

@@ -50,13 +50,13 @@ class TestSignUpRequest {
 
     }
 
-
     @Test
     fun givenAValidUser_whenCallingSignUp_thenReturn201Response() {
-        val userSignUpRequest = UserSignUpRequest(true, "hanS", "solo",
-                "han", "han.solo@gmail.com",
+        val userSignUpRequest = UserSignUpRequest(true, "h1a2nS23", "solo",
+                "han", "han.1s112olo@gmail.com",
                 UserSignUpCredentials(false, "password", "test"))
         val response = CommandExecutor.execute(Supplier { keycloakApi.signUp(userSignUpRequest.toJsonObject()) })
         assertEquals(201, response.statusCode)
+        println(response.text)
     }
 }
