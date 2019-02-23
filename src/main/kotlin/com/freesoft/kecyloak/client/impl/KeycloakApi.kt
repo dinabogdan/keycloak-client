@@ -1,6 +1,7 @@
 package com.freesoft.kecyloak.client.impl
 
 import com.freesoft.kecyloak.client.api.KeycloakClientConfig
+import com.freesoft.kecyloak.client.api.signup.UserSignUpRequest
 import com.freesoft.kecyloak.client.impl.common.HttpHeaderKey
 import com.freesoft.kecyloak.client.impl.common.HttpHeaderValue
 import khttp.responses.Response
@@ -14,11 +15,10 @@ class KeycloakApi(private val config: KeycloakClientConfig) {
                     headers = mapOf(Pair(HttpHeaderKey.CONTENT_TYPE.value, HttpHeaderValue.X_WWW_FORM_URL_ENCODED.value))
             )
 
-
-    fun signUp(postDataBody: Map<String, Any>): Response =
+    fun signUp(request: UserSignUpRequest): Response =
             khttp.post(
                     url = config.signUpUrl,
-                    data = postDataBody,
+                    json = request,
                     headers = mapOf(Pair(HttpHeaderKey.AUTHORIZATION.value, config.adminBearerToken))
             )
 

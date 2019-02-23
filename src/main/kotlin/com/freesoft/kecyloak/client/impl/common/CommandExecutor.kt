@@ -24,7 +24,6 @@ class CommandExecutor private constructor() {
                     throw RecoverableServiceException(exception.message, exception.cause)
                 }
 
-
         private fun <T : Response> handleResult(result: T): T {
             rejectOnTrue(isUnauthorizedClient(result),
                     UnauthorizedClientException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
@@ -36,23 +35,28 @@ class CommandExecutor private constructor() {
                     InvalidUserCredentialsException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
             rejectOnTrue(isMissingGrantType(result),
                     MissingGrantTypeException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorResponse::class.java)))
+            rejectOnTrue(isUserExists(result),
+                    UserExistsException(result.statusCode, gsonParser.parse(result.text, KeycloakErrorMessageResponse::class.java)))
             return result
         }
 
+        private fun <T : Response> isUserExists(result: T) =
+                responsePayloadHandler.isKeycloakErrorMessageResponseTypeOf(KeycloakErrors.USER_EXISTS, result)
+
         private fun <T : Response> isUnauthorizedClient(result: T) =
-                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.UNAUTHORIZED_CLIENT, result)
+                responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.UNAUTHORIZED_CLIENT, result)
 
         private fun <T : Response> isInvalidGrant(result: T) =
-                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_GRANT_TYPE, result)
+                responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.INVALID_GRANT_TYPE, result)
 
         private fun <T : Response> isMissingParameter(result: T) =
-                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.MISSING_PARAMETER, result)
+                responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.MISSING_PARAMETER, result)
 
         private fun <T : Response> isInvalidUserCredentials(result: T) =
-                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.INVALID_USER_CREDENTIALS, result)
+                responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.INVALID_USER_CREDENTIALS, result)
 
         private fun <T : Response> isMissingGrantType(result: T) =
-                responsePayloadHandler.isResponseErrorOfType(KeycloakErrors.MISSING_GRANT_TYPE, result)
+                responsePayloadHandler.isKeycloakErrorResponseTypeOf(KeycloakErrors.MISSING_GRANT_TYPE, result)
 
         private fun <E : ServiceException> rejectOnTrue(condition: Boolean, exception: E) {
             if (condition) throw exception
