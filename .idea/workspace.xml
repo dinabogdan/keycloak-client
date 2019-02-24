@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a83af7e-89c0-42d2-81ab-582844ea07bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/CustomerServices.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/CustomerServices.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/logout/LogOutExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/logout/LogOutExecutor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/parser/GsonParser$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/freesoft/kecyloak/client/impl/parser/GsonParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -18,67 +15,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="LoginExecutor.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="204">
-                    <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="SignUpExecutor.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="272">
-                    <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-                    <folding>
-                      <element signature="e#50#363#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="KeycloakApi.kt" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="374">
-                    <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-                    <folding>
-                      <element signature="e#43#288#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="UserLoginRequest.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginRequest.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="119">
-                    <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="InvalidUserCredentialsException.kt" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="85">
-                    <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -96,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerServicesImpl.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomerServicesImpl.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#43#479#0" expanded="true" />
               </folding>
@@ -135,17 +71,8 @@
       <file leaf-file-name="KeycloakClientImpl.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -532,7 +459,6 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClientConfig.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderKey.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/HttpHeaderValue.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/RecoverableServiceException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/ServiceException.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/common/UnauthorizedClientException.kt" />
@@ -574,6 +500,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/logout/LogOutExecutor.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt" />
       </list>
     </option>
   </component>
@@ -686,111 +613,7 @@
               <item name="freesoft" type="462c0819:PsiDirectoryNode" />
               <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="logout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="signup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="logout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="kecyloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="signup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
@@ -831,17 +654,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="freesoft" type="462c0819:PsiDirectoryNode" />
               <item name="keycloak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keycloak-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keycloak-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="freesoft" type="462c0819:PsiDirectoryNode" />
-              <item name="keycloak" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1094,7 +906,7 @@
       <workItem from="1550596767432" duration="17227000" />
       <workItem from="1550932612183" duration="10424000" />
       <workItem from="1550949754498" duration="693000" />
-      <workItem from="1550950464384" duration="10421000" />
+      <workItem from="1550950464384" duration="11428000" />
     </task>
     <servers />
   </component>
@@ -1131,7 +943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86276000" />
+    <option name="totallyTimeSpent" value="87283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -1494,24 +1306,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginRequest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/freesoft/keycloak/client/TestLoginRequest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="77" column="83" lean-forward="true" selection-start-line="77" selection-start-column="83" selection-end-line="77" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -1532,41 +1330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClient.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/signup/UserSignUpCredentials.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="e#50#363#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1590,6 +1357,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/KeycloakClient.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/exception/InvalidUserCredentialsException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/api/login/UserLoginRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/signup/SignUpExecutor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="e#50#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/login/LoginExecutor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakClientImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/KeycloakApi.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1602,18 +1421,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/freesoft/kecyloak/client/impl/CustomerServicesImpl.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#43#479#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>

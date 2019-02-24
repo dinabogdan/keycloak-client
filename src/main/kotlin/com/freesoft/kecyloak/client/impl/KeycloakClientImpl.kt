@@ -7,5 +7,5 @@ class KeycloakClientImpl(private val config: KeycloakClientConfig,
                          private val keycloakApi: KeycloakApi) : KeycloakClient {
 
 
-    override fun customerServices() = CustomerServicesImpl.aCustomerServices(config, keycloakApi)
+    override fun customerServices() = CustomerServicesImpl.aCustomerServices(keycloakApi)
 }
