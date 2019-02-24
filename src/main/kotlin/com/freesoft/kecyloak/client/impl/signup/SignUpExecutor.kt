@@ -13,7 +13,7 @@ class SignUpExecutor private constructor(private val keycloakApi: KeycloakApi) {
         fun aSignUpExecutor(keycloakApi: KeycloakApi) = SignUpExecutor(keycloakApi)
     }
 
-    private fun signUp(userSignUpRequest: UserSignUpRequest): UserSignUpResponse {
+    fun signUp(userSignUpRequest: UserSignUpRequest): UserSignUpResponse {
         CommandExecutor.execute(Supplier { keycloakApi.signUp(userSignUpRequest.toJsonObject()) })
         return UserSignUpResponse(username = userSignUpRequest.username, createdAt = LocalDateTime.now())
     }

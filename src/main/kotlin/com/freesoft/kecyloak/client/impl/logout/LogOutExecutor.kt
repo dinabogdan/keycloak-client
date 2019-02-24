@@ -11,7 +11,7 @@ class LogOutExecutor private constructor(private val keycloakApi: KeycloakApi) {
         fun aLogOutExecutor(keycloakApi: KeycloakApi) = LogOutExecutor(keycloakApi)
     }
 
-    private fun logOut(userLogOutRequest: UserLogOutRequest) =
+    fun logOut(userLogOutRequest: UserLogOutRequest) =
             CommandExecutor.execute(Supplier {
                 keycloakApi.logout(userLogOutRequest.toPostDataBody(),
                         userLogOutRequest.authToken)
